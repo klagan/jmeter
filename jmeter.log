@@ -1,0 +1,49 @@
+2021/08/06 09:26:58 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_GB 
+2021/08/06 09:26:58 INFO  - jmeter.JMeter: Loading user properties from: /usr/share/jmeter/bin/user.properties 
+2021/08/06 09:26:58 INFO  - jmeter.JMeter: Loading system properties from: /usr/share/jmeter/bin/system.properties 
+2021/08/06 09:26:58 INFO  - jmeter.JMeter: Copyright (c) 1998-2015 The Apache Software Foundation 
+2021/08/06 09:26:58 INFO  - jmeter.JMeter: Version 2.13.20180731 
+2021/08/06 09:26:58 INFO  - jmeter.JMeter: java.version=11.0.11 
+2021/08/06 09:26:58 INFO  - jmeter.JMeter: java.vm.name=OpenJDK 64-Bit Server VM 
+2021/08/06 09:26:58 INFO  - jmeter.JMeter: os.name=Linux 
+2021/08/06 09:26:58 INFO  - jmeter.JMeter: os.arch=amd64 
+2021/08/06 09:26:58 INFO  - jmeter.JMeter: os.version=5.8.0-63-generic 
+2021/08/06 09:26:58 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2021/08/06 09:26:58 INFO  - jmeter.JMeter: Default Locale=English (United Kingdom) 
+2021/08/06 09:26:58 INFO  - jmeter.JMeter: JMeter  Locale=English (United Kingdom) 
+2021/08/06 09:26:58 INFO  - jmeter.JMeter: JMeterHome=/usr/share/jmeter 
+2021/08/06 09:26:58 INFO  - jmeter.JMeter: user.dir  =/home/klagan/source/github/jmeter 
+2021/08/06 09:26:58 INFO  - jmeter.JMeter: PWD       =/home/klagan/source/github/jmeter 
+2021/08/06 09:26:58 INFO  - jmeter.JMeter: IP: 127.0.1.1 Name: ubuntu FullName: ubuntu 
+2021/08/06 09:26:58 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Metal, CrossPlatform] 
+2021/08/06 09:26:58 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2021/08/06 09:26:58 FATAL - jmeter.JMeter: An error occurred:  java.lang.VerifyError: class org.apache.jorphan.logging.Slf4jLogkitLogger overrides final method org.apache.log.Logger.log(Lorg/apache/log/Priority;Ljava/lang/String;Ljava/lang/Throwable;)V
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:550)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:458)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:452)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:451)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.apache.jorphan.reflect.ClassFinder.isChildOf(ClassFinder.java:475)
+	at org.apache.jorphan.reflect.ClassFinder.access$000(ClassFinder.java:46)
+	at org.apache.jorphan.reflect.ClassFinder$FilterTreeSet.add(ClassFinder.java:106)
+	at org.apache.jorphan.reflect.ClassFinder$FilterTreeSet.add(ClassFinder.java:63)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:542)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInPaths(ClassFinder.java:558)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:302)
+	at org.apache.jmeter.gui.action.ActionRouter.populateCommandMap(ActionRouter.java:289)
+	at org.apache.jmeter.gui.action.ActionRouter.getInstance(ActionRouter.java:332)
+	at org.apache.jmeter.JMeter.startGui(JMeter.java:239)
+	at org.apache.jmeter.JMeter.start(JMeter.java:387)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:264)
+
